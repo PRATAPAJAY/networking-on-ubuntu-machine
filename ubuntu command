@@ -1,0 +1,2 @@
+How to find out capacity for network interfaces?
+sudo  strace -e trace=file -f -s128  lshw -class network
